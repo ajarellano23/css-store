@@ -10,17 +10,18 @@
 <body>
     
     <header>
+        <nav>
         <div class="topnav" id="myTopnav">
         <a href="#home"  class="active">Home</a>
         <a href="#abouts">About us</a>
-        <a href="products">Products</a>
-        <a href="promos">Promos</a>
-        <a href="contacts">Contact us</a>
+        <a href="#products">Products</a>
+        <a href="#promos">Promos</a>
+        <a href="#contacts">Contact us</a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
             <i class="fa fa-bars"></i>
           </a>
-          
     </div>
+</nav>
     <script>
         function myFunction() {
           var x = document.getElementById("myTopnav");
@@ -34,7 +35,7 @@
     </header>
     <div class="container">
         <img src="bg.jpg" alt="Snow" style="width:100%;">
-        <div style="font-size:5vw" class="centered">ARELLANO COLTHING STORE</div>
+        <div style="font-size:5vw" class="centered">ARELLANO CLOTHING STORE</div>
       </div>
       <hr>
 <div class="content" style="max-width: 1100px;"></div>
@@ -47,19 +48,19 @@
                 Ad dolorum cum ipsum autem officia, qui minima, vel, praesentium id a repellendus! Inventore veritatis atque voluptatum voluptates quidem assumenda eos pariatur rerum et quisquam magni, culpa officiis aspernatur ratione!i? Ullam, aut quod! Mollitia fugiat perferendis quas eos nostrum debitis necessitatibus perspiciatis, ipsum modi, architecto quae vero? Ullam quisquam tempore id voluptatibus? Sapiente, aliquid facilis.</p>
             </section>
             <hr>
-            <section>
-                <h2 style="font-size:5vw" id="products" class="prod">PRODUCTS</h2>
+            <section id="products">
+                <h2 style="font-size:5vw" class="prod">PRODUCTS</h2>
                 <img src="products.jpeg" class="p">
             </section>
             <hr>
-            <section>
-                <h2 style="font-size:5vw" id="promos" class="pro">PROMOS</h2>
-                <img src="promos.webp" class="promos">
+            <section id="promos">
+                <h2 style="font-size:5vw" class="pro">PROMOS</h2>
+                <img src="promos.webp" class="prom">
             </section>
         </article>
     </main>
     <hr>
-    <footer>
+    <footer id="contacts">
         <h2>CONTACT US</h2>
         <a href="https://www.facebook.com/"
         target="_blank">Facebook</a>
